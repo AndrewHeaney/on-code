@@ -19,13 +19,10 @@ const ArticleDate = styled.h5`
 
 const MarkerHeader = styled.h3`
   display: inline;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
+  border-radius: 20px;
+  background: linear-gradient(150deg, rgba(75,123,236,1) 0%, rgba(165,94,234,1) 100%);
+  color: white;
+  padding: 0 10px;
 `
 
 const ReadingTime = styled.h5`

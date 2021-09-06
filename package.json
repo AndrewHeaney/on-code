@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-julia",
+  "name": "on-code",
   "private": true,
-  "description": "A minimal blog template built with Gatsby",
+  "description": "My personal blog",
   "version": "0.1.0",
-  "author": "Niklas Metje <hi@niklasmtj.de>",
+  "author": "Andrew Heaney",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
