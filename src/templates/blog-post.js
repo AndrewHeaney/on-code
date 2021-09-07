@@ -11,11 +11,12 @@ const Content = styled.div`
 `
 
 const MarkedHeader = styled.h1`
-  display: inline;
+  text-align: center;
+  display: block;
   border-radius: 20px;
   background: linear-gradient(150deg, rgba(75,123,236,1) 0%, rgba(165,94,234,1) 100%);
   color: white;
-  padding: 0 10px;
+  padding: 10px;
 `
 
 const HeaderDate = styled.h3`
