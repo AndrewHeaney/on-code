@@ -13,9 +13,9 @@ const Content = styled.div`
 const MarkedHeader = styled.h1`
   text-align: center;
   display: block;
-  border-radius: 20px;
-  background: linear-gradient(150deg, rgba(75,123,236,1) 0%, rgba(165,94,234,1) 100%);
-  color: white;
+  text-decoration: underline;
+  text-decoration-color: #fffa96cc;
+  color: black;
   padding: 10px;
 `
 

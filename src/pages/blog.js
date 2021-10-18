@@ -19,9 +19,10 @@ const ArticleDate = styled.h5`
 
 const MarkerHeader = styled.h3`
   display: inline;
-  border-radius: 20px;
-  background: linear-gradient(150deg, rgba(75,123,236,1) 0%, rgba(165,94,234,1) 100%);
-  color: white;
+  text-decoration: underline;
+  text-decoration-color: #fffa96cc;
+  text-decoration-thickness: 20%;
+  color: black;
   padding: 0 10px;
 `
 
