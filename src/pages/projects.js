@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import ProjectTile from "../components/project-tile"
 import ArtistDive from "../images/artist-dive.png"
 import UC from "../images/uc.png"
+import Gito from "../images/gito.png"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,11 @@ const IndexPage = () => (
         title="Artist Dive"
         image={ArtistDive}
         href={"https://artistdive.glitch.me/"}
+      />
+      <ProjectTile
+        title="GITO"
+        image={Gito}
+        href={"https://github.com/AndrewHeaney/gito"}
       />
     </div>
   </Layout>
