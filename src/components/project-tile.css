@@ -7,9 +7,23 @@
 }
 
 img {
-  width: 60%;
+  width: 65%;
   border-radius: 30px;
   padding: 8px;
   display: inline !important;
   margin: 5px auto;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
