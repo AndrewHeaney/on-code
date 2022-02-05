@@ -26,11 +26,6 @@ const MarkerHeader = styled.h3`
   padding: 0 10px;
 `
 
-const ReadingTime = styled.h5`
-  display: inline;
-  color: #606060;
-`
-
 const IndexPage = ({ data }) => {
   return (
     <Layout>
@@ -56,7 +51,6 @@ const IndexPage = ({ data }) => {
               </Link>
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
               </div>
               <p>{node.excerpt}</p>
             </div>
@@ -91,9 +85,6 @@ export const query = graphql`
           }
           fields {
             slug
-            readingTime {
-              text
-            }
           }
           excerpt
         }
