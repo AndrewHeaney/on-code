@@ -37,7 +37,7 @@ const IndexPage = () => (
         <ProjectTile
           title="JKX"
           image={Jkx}
-          href={"https://github.com/AndrewHeaney/json-key-explorer"}
+          href={"https://pypi.org/project/jkx/"}
         />
       </div>
     </div>
